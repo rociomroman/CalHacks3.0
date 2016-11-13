@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<title>Make A Change</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="MainPage.css">
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+    <li>
+      <a href="#home" class="w3-margin-left"><b>MC</b> Make a Change</a>
+    </li>
+    <!-- Float links to the right. Hide them on small screens -->
+    <li class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-left">Live</a>
+      <a href="#about" class="w3-left">Description</a>
+      <a href="#contact" class="w3-left w3-margin-right">Map</a>
+    </li>
+  </ul>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="http://cbsnews1.cbsistatic.com/hub/i/r/2016/11/10/7bd49373-2373-4cde-bcd4-83a20eb18001/thumbnail/620x350/940cff8b679646e49e6e7366e1eb8b12/trump-protest-getty-622097276.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge"><span class="w3-border w3-border-white w3-padding"><font color= "white"> MC </font></span> <span class="w3-hide-small"><font color= "white"> Make a Change </font></span></h1>
+  </div>
+</header>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Live</h3>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Chicago</div>
+        <img src="http://www.wnd.com/files/2016/03/anti-trump_protest.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">D.C.</div>
+        <img src="https://pbs.twimg.com/media/Cw_6U7HVIAA1Kwh.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">South Korea</div>
+        <img src="https://pbs.twimg.com/media/CxEPgmPWIAA6773.jpg:small" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Los Angeles</div>
+        <img src="https://pbs.twimg.com/media/CxGApWwUUAAXnFh.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+<!--firebase-->
+<!--Begin Firebase-->
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDroVVFQP5VCdQIpetZGoAaebyfJ2JjXss",
+    authDomain: "make-a-change-57fce.firebaseapp.com",
+    databaseURL: "https://make-a-change-57fce.firebaseio.com",
+    storageBucket: "make-a-change-57fce.appspot.com",
+    messagingSenderId: "550264450725"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<!--Twitter Feed-->
+<a class="twitter-timeline" data-width="350" data-height="600" href="https://twitter.com/search?q=protest" data-widget-id="797507277666164736">Protest live feed</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a class="twitter-timeline" data-width="350" data-height="600" href="https://twitter.com/BernieSanders">Tweets by BernieSanders</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<a class="twitter-timeline" data-width="350" data-height="600" href="https://twitter.com/elizabethforma">Tweets by elizabethforma</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<a class="twitter-timeline" data-width="350" data-height="600" href="https://twitter.com/POTUS">Tweets by POTUS</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+     
+</body>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">About Us</h3>
+    <p>Digno is dedicated to the pursuit of political engagement within the community. We want to give everyone a chance to let their voice be heard! To help foster political discourse, Make A Change empowers visitors to join with their community, either in protest or in discussion. After the results of the most recent election, the founders of Digno realized that the lack of direct political communication between members of the electorate, even between members of the same party, was flawed and detrimental to our democracy. 
+    </p>
+  </div>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="http://i.imgur.com/MS5T4ib.jpg" alt="John" style="width:100%">
+      <p class="w3-opacity">Hackers: Armando Negrete, Joshua Olson, Lizette Osorio, Rocio Ro, John Theurer</p>
+    </div>
+  </div>
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Check-In</h3>
+    <p> Fill out form</p>
+    <form action="action_page.php">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section" type="text" placeholder="Social Movement" required name="Email">
+      <input class="w3-input w3-section" type="text" placeholder="Group" required name="Subject">
+      <button class="w3-btn w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SUBMIT
+      </button>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+<!-- Google Map -->
+<div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+<input id="demo" type="button" value="demo" onclick="getLocation()"></input>   
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by team awesome!</a></p>
+</footer>
+
+<!-- End Firebase -->
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+<!-- Google Map Location -->
+var myCenter = new google.maps.LatLng(37.8718992, -122.2585399);
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 12,
+  scrollwheel: true,
+  draggable: true,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+marker.setMap(map);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script>
+  var x = document.getElementById("demo");
+  function getLocation() 
+  {<!-- ask user to input an address
+        take in address and convert to long/lat
+        display on map -->
+    console.log("ready?");
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+<p id="demo"></p>
+</html>
+
+
+
+
